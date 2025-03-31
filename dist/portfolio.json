@@ -1,0 +1,245 @@
+{
+  "personalInfo": {
+    "name": "Jai kumar A",
+    "role": "Frontend Developer",
+    "resumeLink": "/Jaikumar_A_Frontend_Developer.pdf",
+    "image": "images/Home_image.png"
+  },
+  "navigation": [
+    { "name": "Home", "href": "#home" },
+    { "name": "About", "href": "#about" },
+    { "name": "Experience", "href": "#experience" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "about": {
+    "image": "images/aboutimage-1.png",
+    "title": "About",
+    "description": [
+      "I am a Frontend Developer with a passion for crafting beautiful, responsive, and user-friendly web applications. With a strong foundation in **HTML**, **CSS**, **JavaScript**, and **React**, I focus on building seamless digital experiences.",
+      "Before stepping into the world of web development, I worked as a Mechanical Design Engineer for over three years, specializing in **3D modeling**, **2D drawings**, and **product design**. This background has sharpened my attention to detail, problem-solving skills, and structured approach to development.",
+      "Beyond coding, I am also a **Pencil Sketch Artist**, bringing creativity and precision into both my artwork and web design. My love for aesthetics helps me create visually appealing interfaces that not only function well but also look great."
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "type": "IT Experience",
+      "title": "Frontend Web Developer - 1 Yr 3 mos",
+      "company": "Araveen Technologies Private Limited · Full-time",
+      "duration": "Jan 2024 - Present",
+      "location": "Bengaluru, Karnataka, India",
+      "responsibilities": [
+        "Experienced in developing and maintaining responsive web applications using React.js, JavaScript, HTML, and CSS.",
+        "Skilled in implementing modern UI designs with Tailwind CSS, Bootstrap, and Figma prototypes to enhance user experience.",
+        "Proficient in integrating GraphQL APIs for efficient data fetching and management.",
+        "Optimized project performance with Vite for fast builds and hot reloading.",
+        "Improved website interactivity using jQuery for DOM manipulation and event handling.",
+        "Ensured cross-browser compatibility and mobile responsiveness. Collaborated with designers and backend developers to deliver dynamic and user-friendly web applications.."
+      ],
+      "logos": ["images/webdesign.png"]
+    },
+    {
+      "id": 2,
+      "type": "Non-IT Experience",
+      "title": "Technical Specialist - 2 Yrs 4 mos",
+      "company": "TE Connectivity - Full-time",
+      "duration": "Jul 2021 - Nov 2023",
+      "location": "Bengaluru, Karnataka, India",
+      "responsibilities": [
+        "Created 3D models and detailed 2D drawings for automotive parts and connectors using Unigraphics NX12 and Creo.",
+        "Developed sheet metal parts for connectors, adhering to company standards and PDM system requirements.",
+        "Managed the creation and completion of ECR and ECN for engineering updates.",
+        "Produced assemblies, BOM, and detailed assembly drawings.",
+        "Collaborated with the Global Application Tooling Division to develop tooling components.",
+        "Utilized ZWCAD for drawing updates and managed product states using PDM link."
+      ],
+      "logos": ["images/Te-connectivityex2.png"]
+    },
+    {
+      "id": 3,
+      "type": "Non-IT Experience",
+      "title": "Apprentice - 1 Yr",
+      "company": "Hyundai Motor India Ltd. - Full-time",
+      "duration": "Jul 2016 - Jul 2017",
+      "location": "Sriperumbudur, Chennai, Tamil Nadu, India",
+      "responsibilities": [
+        "Assisted in creating detailed 2D and 3D models for transmission components using CATIA V5.",
+        "Supported senior engineers in developing transmission system components.",
+        "Created and updated design documentation specific to transmission systems.",
+        "Collaborated with cross-functional teams to ensure design adherence to engineering, manufacturing, and safety standards."
+      ],
+      "logos": ["images/caddesign.png"]
+    }
+  ],
+  "skills": {
+    "title": "Skills",
+    "icon": "images/skillbanner.png",
+
+    "categories": [
+      {
+        "title": "Frontend Fundamentals",
+        "items": [
+          { "name": "HTML", "icon": "images/html-logo.png" },
+          { "name": "CSS", "icon": "images/css-logo.png" },
+          {
+            "name": "JavaScript (ES6+)",
+            "icon": "images/JavaScript-logo.png"
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "items": [
+          {
+            "name": "React.js",
+            "icon": "images/reactjs-logo.png"
+          },
+          {
+            "name": "jQuery",
+            "icon": "images/jquery-logo.png"
+          },
+          { "name": "Redux", "icon": "images/Redux.png" }
+        ]
+      },
+      {
+        "title": "API Handling",
+        "items": [
+          {
+            "name": "GraphQL",
+            "icon": "images/graphql-logo.png"
+          },
+          {
+            "name": "Axios",
+            "icon": "images/Axios_logo - Copy.png"
+          }
+        ]
+      },
+      {
+        "title": "UI Libraries",
+        "items": [
+          {
+            "name": "Tailwind CSS",
+            "icon": "images/tailwindcss-logo.png"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "images/bootstrap-logo.png"
+          }
+        ]
+      },
+      {
+        "title": "Design & Prototyping",
+        "items": [{ "name": "Figma", "icon": "images/figma-logo.png" }]
+      },
+      {
+        "title": "Version Control",
+        "items": [{ "name": "GitHub", "icon": "images/github-logo.png" }]
+      },
+      {
+        "title": "Soft Skills",
+        "items": [
+          {
+            "name": "Creativity,  ",
+            "icon": "images/bluetick.png"
+          },
+          { "name": "Teamwork", "icon": "images/bluetick.png" },
+          {
+            "name": "Adaptability",
+            "icon": "images/bluetick.png"
+          },
+          {
+            "name": "Attention to Detail",
+            "icon": "images/bluetick.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "SkyCast",
+      "subtitle": "Real-Time Weather Updates",
+      "description": "A Weather Application Providing Real-Time Weather Updates Using APIs, With A Responsive UI For An Intuitive User Experience.",
+      "features": [
+        "Real-time weather data",
+        "Location-based forecasts",
+        "Responsive design"
+      ],
+      "technologies": [
+        "React",
+        "Weather API",
+        "Redux",
+        "Javascript",
+        "CSS",
+        "HTML"
+      ],
+      "link": "https://jaikumarasokan.github.io/Weather-App/",
+      "image": "/images/projects/skycast.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Contact Book",
+      "subtitle": "Simple & Efficient",
+      "description": "A User-Friendly Contact Management App Built With React And Axios, Featuring CRUD Operations, Search Functionality, And Popups For A Seamless Experience.",
+      "features": [
+        "CRUD operations",
+        "Search functionality",
+        "Interactive popups"
+      ],
+      "technologies": ["React", "Axios", "Javascript", "CSS", "HTML"],
+      "link": "https://jaikumarasokan.github.io/jaikumar-bitcot/",
+      "image": "/images/projects/contact-book.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Portfolio",
+      "subtitle": "Showcasing My Skills",
+      "description": "A Personal Portfolio Website Showcasing Skills, Projects, And Experience With A Clean And Responsive Design For Better User Engagement.",
+      "features": [
+        "Responsive design",
+        "Project showcase",
+        "Interactive elements"
+      ],
+      "technologies": ["React", "Javascript", "CSS", "HTML"],
+      "link": "https://jaikumarasokan.github.io/jaikumar-portfolio/",
+      "image": "/images/projects/portfolio.jpg"
+    }
+  ],
+
+  "footer": {
+    "permanentAddress": {
+      "text": "Door no. 4a, \nKalki Nagar Main Rd,\nDevi Karumariamman Nagar, \nAGS Colony, Velachery, \nChennai, Tamil Nadu 600042",
+      "icon": "imagess/chennai-logo-2.png"
+    },
+    "phone": {
+      "text": "+91 9080530687",
+      "icon": "/images/icons/phone.svg"
+    },
+    "email": {
+      "text": "jaikumarasokan96@gmail.com",
+      "icon": "/images/icons/email.svg"
+    },
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/JaikumarAsokan",
+        "icon": "/images/icons/github.svg"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jaikumarasokan/",
+        "icon": "/images/icons/linkedin.svg"
+      },
+      {
+        "name": "Figma",
+        "url": "https://www.figma.com/design/qMMHbIubfFZ9tmBtJ8gp8Y/Jaikumar-A?node-id=0-1&t=bIgaUBj8V2Z8GszQ-1",
+        "icon": "/images/icons/figma.svg"
+      }
+    ],
+    "copyright": "Designed By JAIKUMAR"
+  }
+}
