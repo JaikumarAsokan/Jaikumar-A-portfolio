@@ -39,7 +39,7 @@ const Navbar = ({ navItems }) => {
         <button
           ref={buttonRef}
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-gray-600 focus:outline-none"
+          className="md:hidden text-gray-600 focus:outline-none bg-[#f9f9f9]"
         >
           {isOpen ? (
             <svg
