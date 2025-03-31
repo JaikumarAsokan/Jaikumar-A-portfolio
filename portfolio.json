@@ -3,7 +3,7 @@
     "name": "Jai kumar A",
     "role": "Frontend Developer",
     "resumeLink": "/Jaikumar_A_Frontend_Developer.pdf",
-    "image": "public/Home_image.png"
+    "image": "images/Home_image.png"
   },
   "navigation": [
     { "name": "Home", "href": "#home" },
@@ -14,7 +14,7 @@
     { "name": "Contact", "href": "#contact" }
   ],
   "about": {
-    "image": "public/aboutimage-1.png",
+    "image": "images/aboutimage-1.png",
     "title": "About",
     "description": [
       "I am a Frontend Developer with a passion for crafting beautiful, responsive, and user-friendly web applications. With a strong foundation in **HTML**, **CSS**, **JavaScript**, and **React**, I focus on building seamless digital experiences.",
@@ -38,7 +38,7 @@
         "Improved website interactivity using jQuery for DOM manipulation and event handling.",
         "Ensured cross-browser compatibility and mobile responsiveness. Collaborated with designers and backend developers to deliver dynamic and user-friendly web applications.."
       ],
-      "logos": ["public/webdesign.png"]
+      "logos": ["images/webdesign.png"]
     },
     {
       "id": 2,
@@ -55,7 +55,7 @@
         "Collaborated with the Global Application Tooling Division to develop tooling components.",
         "Utilized ZWCAD for drawing updates and managed product states using PDM link."
       ],
-      "logos": ["public/Te-connectivityex2.png"]
+      "logos": ["images/Te-connectivityex2.png"]
     },
     {
       "id": 3,
@@ -70,22 +70,22 @@
         "Created and updated design documentation specific to transmission systems.",
         "Collaborated with cross-functional teams to ensure design adherence to engineering, manufacturing, and safety standards."
       ],
-      "logos": ["public/caddesign.png"]
+      "logos": ["images/caddesign.png"]
     }
   ],
   "skills": {
     "title": "Skills",
-    "icon": "public/skillbanner.png",
+    "icon": "images/skillbanner.png",
 
     "categories": [
       {
         "title": "Frontend Fundamentals",
         "items": [
-          { "name": "HTML", "icon": "public/html-logo.png" },
-          { "name": "CSS", "icon": "public/css-logo.png" },
+          { "name": "HTML", "icon": "images/html-logo.png" },
+          { "name": "CSS", "icon": "images/css-logo.png" },
           {
             "name": "JavaScript (ES6+)",
-            "icon": "public/JavaScript-logo.png"
+            "icon": "images/JavaScript-logo.png"
           }
         ]
       },
@@ -94,13 +94,13 @@
         "items": [
           {
             "name": "React.js",
-            "icon": "public/reactjs-logo.png"
+            "icon": "images/reactjs-logo.png"
           },
           {
             "name": "jQuery",
-            "icon": "public/jquery-logo.png"
+            "icon": "images/jquery-logo.png"
           },
-          { "name": "Redux", "icon": "public/Redux.png" }
+          { "name": "Redux", "icon": "images/Redux.png" }
         ]
       },
       {
@@ -108,11 +108,11 @@
         "items": [
           {
             "name": "GraphQL",
-            "icon": "public/graphql-logo.png"
+            "icon": "images/graphql-logo.png"
           },
           {
             "name": "Axios",
-            "icon": "public/Axios_logo - Copy.png"
+            "icon": "images/Axios_logo - Copy.png"
           }
         ]
       },
@@ -121,37 +121,37 @@
         "items": [
           {
             "name": "Tailwind CSS",
-            "icon": "public/tailwindcss-logo.png"
+            "icon": "images/tailwindcss-logo.png"
           },
           {
             "name": "Bootstrap",
-            "icon": "public/bootstrap-logo.png"
+            "icon": "images/bootstrap-logo.png"
           }
         ]
       },
       {
         "title": "Design & Prototyping",
-        "items": [{ "name": "Figma", "icon": "public/figma-logo.png" }]
+        "items": [{ "name": "Figma", "icon": "images/figma-logo.png" }]
       },
       {
         "title": "Version Control",
-        "items": [{ "name": "GitHub", "icon": "public/github-logo.png" }]
+        "items": [{ "name": "GitHub", "icon": "images/github-logo.png" }]
       },
       {
         "title": "Soft Skills",
         "items": [
           {
             "name": "Creativity,  ",
-            "icon": "public/bluetick.png"
+            "icon": "images/bluetick.png"
           },
-          { "name": "Teamwork", "icon": "public/bluetick.png" },
+          { "name": "Teamwork", "icon": "images/bluetick.png" },
           {
             "name": "Adaptability",
-            "icon": "public/bluetick.png"
+            "icon": "images/bluetick.png"
           },
           {
             "name": "Attention to Detail",
-            "icon": "public/bluetick.png"
+            "icon": "images/bluetick.png"
           }
         ]
       }
@@ -213,7 +213,7 @@
   "footer": {
     "permanentAddress": {
       "text": "Door no. 4a, \nKalki Nagar Main Rd,\nDevi Karumariamman Nagar, \nAGS Colony, Velachery, \nChennai, Tamil Nadu 600042",
-      "icon": "publics/chennai-logo-2.png"
+      "icon": "imagess/chennai-logo-2.png"
     },
     "phone": {
       "text": "+91 9080530687",
