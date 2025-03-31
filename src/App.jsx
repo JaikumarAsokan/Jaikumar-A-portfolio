@@ -28,7 +28,7 @@ const App = () => {
 
     const fetchData = async () => {
       try {
-        const response = await axios.get("/portfolio.json");
+        const response = await axios.get(`${import.meta.env.BASE_URL}portfolio.json`);
         setPortfolioData(response.data);
       } catch (error) {
         console.error("Error fetching portfolio data:", error);
