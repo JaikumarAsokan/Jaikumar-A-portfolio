@@ -34,7 +34,9 @@ const Hero = ({ personalInfo }) => {
           I'm a {personalInfo.role}
         </motion.h2>
         <motion.a
-          href={personalInfo.resumeLink}
+          href={`${
+            import.meta.env.BASE_URL
+          }resume/Jaikumar_A_Frontend_Developer.pdf`}
           download="Jaikumar_A_Frontend_Developer.pdf"
           className="inline-block bg-[#1e3a8a] text-white border font-bold py-3 px-6 rounded transition duration-300 hover:bg-white hover:text-[#1e3a8a] hover:border hover:border-[#1e3a8a] hover:shadow-lg w-full md:w-min text-center"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -43,7 +45,6 @@ const Hero = ({ personalInfo }) => {
           viewport={{ once: true }}
         >
           Resume
-          
         </motion.a>
       </motion.div>
 
@@ -55,7 +56,11 @@ const Hero = ({ personalInfo }) => {
         transition={{ duration: 0.8, delay: 0.5 }}
         viewport={{ once: true }}
       >
-        <img src={personalInfo.image} alt="Profile" className="rounded-lg" />
+        <img
+          src={`${import.meta.env.BASE_URL}${personalInfo.image}`}
+          alt="Profile"
+          className="rounded-lg"
+        />
       </motion.div>
     </section>
   );
