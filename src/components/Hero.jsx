@@ -5,7 +5,7 @@ const Hero = ({ personalInfo }) => {
   return (
     <section
       id="home"
-      className="pt-32 pb-16 container mx-auto px-4 sm:px-8 lg:px-40 flex flex-col-reverse md:flex-row items-center justify-between"
+      className="bg-white pt-32 pb-16 container mx-auto px-4 sm:px-8 lg:px-40 flex flex-col-reverse md:flex-row items-center justify-between"
     >
       {/* Left Section */}
       <motion.div
