@@ -55,7 +55,7 @@ const App = () => {
   }
 
   return (
-    <div className="font-sans">
+    <div className="font-sans bg-white">
       <Navbar navItems={portfolioData.navigation} />
       <Hero personalInfo={portfolioData.personalInfo} />
       <About aboutData={portfolioData.about} />
