@@ -8,7 +8,7 @@ const Projects = ({ projects }) => {
       className="py-24 px-6 md:px-12 lg:px-20 xl:px-40 bg-white"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="container mx-auto">
@@ -16,7 +16,7 @@ const Projects = ({ projects }) => {
           className="text-3xl md:text-4xl font-bold text-[#1e3a8a] mb-12 text-left"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           Projects
@@ -29,7 +29,7 @@ const Projects = ({ projects }) => {
               className="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
               {/* <div className="h-48 overflow-hidden">

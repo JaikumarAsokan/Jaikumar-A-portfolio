@@ -21,7 +21,7 @@ const Footer = ({ footerData }) => {
       className="bg-gray-800 text-white py-12 px-6 md:px-12 lg:px-40"
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true }}
+      viewport={{ once: true, amount: 0.1 }}
       variants={staggerContainer}
     >
       <div className="container mx-auto">

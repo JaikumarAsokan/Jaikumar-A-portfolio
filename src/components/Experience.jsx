@@ -14,7 +14,7 @@ const Experience = ({ experiences = [] }) => {
         className="py-16 px-6 bg-white"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={fadeInUp}
       >
         <div className="container mx-auto text-center">
@@ -42,7 +42,7 @@ const Experience = ({ experiences = [] }) => {
           className="text-3xl md:text-4xl font-bold text-[#1e3a8a] mb-8 text-left"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0.1 }}
           variants={fadeInUp}
         >
           Experience
@@ -54,7 +54,7 @@ const Experience = ({ experiences = [] }) => {
             className="mb-12"
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true }}
+            viewport={{ once: true, amount: 0.1 }}
             variants={fadeInUp}
           >
             <h3 className="text-2xl font-bold text-[#1e3a8a] mb-6 border-b pb-2">
@@ -68,7 +68,7 @@ const Experience = ({ experiences = [] }) => {
                   className="bg-gray-50 p-6 shadow-sm flex flex-col md:flex-row gap-6 md:gap-12 lg:gap-20"
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{ once: true }}
+                  viewport={{ once: true, amount: 0.1 }}
                   variants={fadeInUp}
                 >
                   <div className="basis-2/3">

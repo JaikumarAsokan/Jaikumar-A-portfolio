@@ -18,7 +18,7 @@ const About = ({ aboutData }) => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      viewport={{ once: true }}
+      viewport={{ once: true, amount: 0.1 }}
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12">
         {/* Image Section */}
@@ -27,7 +27,7 @@ const About = ({ aboutData }) => {
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0.1 }}
         >
           <img
             src={aboutData.image}
@@ -42,7 +42,7 @@ const About = ({ aboutData }) => {
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0.1 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6 text-left">
             {aboutData.title}
@@ -54,7 +54,7 @@ const About = ({ aboutData }) => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, amount: 0.1 }}
             >
               {formatText(paragraph)}
             </motion.p>

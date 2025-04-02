@@ -102,7 +102,7 @@ const Navbar = ({ navItems }) => {
             <a
               key={index}
               href={item.href}
-              className="flex flex-col py-2 text-gray-600 bg-[#f9f9f9] rounded"
+              className="flex flex-col py-2 text-gray-600 "
             >
               {item.name}
             </a>

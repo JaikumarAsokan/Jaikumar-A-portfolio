@@ -14,14 +14,14 @@ const Hero = ({ personalInfo }) => {
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         <motion.h1
           className="whitespace-nowrap md:whitespace-nowrap text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#1e3a8a] mb-2 sm:mb-3 md:mb-4 lg:mb-5"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0.1 }}
         >
           Hi, I'm {personalInfo.name}!
         </motion.h1>
@@ -30,7 +30,7 @@ const Hero = ({ personalInfo }) => {
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0.1 }}
         >
           I'm a {personalInfo.role}
         </motion.h2>
@@ -43,7 +43,7 @@ const Hero = ({ personalInfo }) => {
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0.1 }}
         >
           Resume
         </motion.a>
@@ -55,7 +55,7 @@ const Hero = ({ personalInfo }) => {
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         <img
           src={`${import.meta.env.BASE_URL}${personalInfo.image}`}
